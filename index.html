@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Kontakt ma'lumotlarini yuborish</h1>
+    <form>
+      <label for="telefon">Telefon raqamingiz:</label><br />
+      <input
+        type="tel"
+        id="telefon"
+        placeholder="Telefon raqamingizni kiriting"
+        required
+      /><br /><br />
+      <label for="adress">Manzilingiz:</label><br />
+      <textarea
+        id="adress"
+        placeholder="Manzilingizni kiriting"
+        rows="4"
+        cols="50"
+        required
+      ></textarea
+      ><br /><br />
+      <label for="notes">Matningiz:</label><br />
+      <textarea id="notes" placeholder="Matn" rows="6" cols="50"></textarea>
+      <br /><br />
+      <label for="aloqa">Siz bilan qanday aloqa qilishimizni xohlaysiz?</label
+      ><br />
+      <select id="aloqa">
+        <option value="email">Email orqali</option>
+        <option value="telefon">Telefon orqali</option>
+        <option value="sms">SMS orqali</option>
+      </select>
+      <br /><br />
+      <input type="submit" value="Xabarni yuborish" />
+      <input type="reset" value="O'chirish" />
+    </form>
+  </body>
+</html>
